@@ -41,6 +41,7 @@ root
     └──includes
 ├──psd
 ├──scss
+    └──media
 └──gulpfile.js
 ```
 

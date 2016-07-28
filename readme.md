@@ -4,18 +4,18 @@
 
 ## Плагины
 
-```gulp```
-```gulp-connect```
-```gulp-coffee```
-```gulp-clean```
-```gulp-sass```
-```gulp-include```
-```gulp-cssmin```
-```gulp-rename```
-```gulp-filelist```
-```gulp-using```
-```gulp-plumber```
-```gulp-autoprefixer```
+```gulp``` 
+```gulp-connect``` 
+```gulp-coffee``` 
+```gulp-clean``` 
+```gulp-sass``` 
+```gulp-include``` 
+```gulp-cssmin``` 
+```gulp-rename``` 
+```gulp-filelist``` 
+```gulp-using``` 
+```gulp-plumber``` 
+```gulp-autoprefixer``` 
 ```gulp-jsmin```
 
 а так же стандартные модули ```nodejs```:

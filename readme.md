@@ -25,9 +25,10 @@
 ```child_process```
 
 ## Структура шаблона
+
 ```
 root
-├── coffee 
+├── coffee
     └── init
 ├── dist
     ├── css
@@ -56,6 +57,7 @@ root
 ## Loader.min.js
 
 Скрипт, который использует ```require.js``` для загрузки скриптов.
+
 ```
 <script src="js/loader.min.js"></script>
 <script>
@@ -70,6 +72,7 @@ root
 	]);
 </script>
 ```
+
 Первый массив - скрипты плагинов, jQuery и т.д.
 
 Второй массив - скрипты которые инициализируют плагины.

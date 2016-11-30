@@ -1,0 +1,27 @@
+$font: 'Open Sans', sans-serif;
+$font2: Helvetica, sans-serif;
+$blue: #3a5f8a; 
+/*$blue: #1d579b;*/
+$lightblue: #c6e3f1;
+/*$lightblue: lighten($blue, 40);*/
+$darkblue: darken($blue, 10);
+$red: #e40c02;
+$grey: #999;
+$lightgreen: #edfff0;
+$orange: #f8af22;
+$blue2: #2D4B77;
+
+@mixin placeholder($color){
+	&::-webkit-input-placeholder {
+		color: #{$color};
+	}
+	&:-moz-placeholder {
+		color: #{$color};
+	}
+	&::-moz-placeholder {
+		color: #{$color};
+	}
+	&:-ms-input-placeholder {
+		color: #{$color};
+	}
+}

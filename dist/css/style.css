@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?o39hin');
+  src:  url('../fonts/icomoon.eot?o39hin#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?o39hin') format('truetype'),
+    url('../fonts/icomoon.woff?o39hin') format('woff'),
+    url('../fonts/icomoon.svg?o39hin#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-star:before {
+  content: "\e900";
+}
+.icon-star-yellow:before {
+  content: "\e901";
+}
+.icon-back:before {
+  content: "\e902";
+}
+.icon-message:before {
+  content: "\e903";
+}
+.icon-down-arrow:before {
+  content: "\e904";
+}
+.icon-down-arrow-2:before {
+  content: "\e905";
+}
+.icon-facebook:before {
+  content: "\e906";
+}
+.icon-left-arrow:before {
+  content: "\e907";
+}
+.icon-list:before {
+  content: "\e908";
+}
+.icon-next:before {
+  content: "\e909";
+}
+.icon-ok:before {
+  content: "\e90a";
+}
+.icon-right-arrow:before {
+  content: "\e90b";
+}
+.icon-basket:before {
+  content: "\e90c";
+}
+.icon-twitter:before {
+  content: "\e90e";
+}
+.icon-up-arrow:before {
+  content: "\e90f";
+}
+.icon-visa .path1:before {
+  content: "\e910";
+  color: rgb(35, 148, 188);
+}
+.icon-visa .path2:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(239, 199, 94);
+}
+.icon-vk:before {
+  content: "\e912";
+}
+.icon-paper-plane:before {
+  content: "\e915";
+}
+.icon-plane:before {
+  content: "\e916";
+}
+.icon-instagram:before {
+  content: "\e90d";
+}
+.icon-replay:before {
+  content: "\e025";
+}
+.icon-block:before {
+  content: "\e06f";
+}
+.icon-clear:before {
+  content: "\e070";
+}
+.icon-remove_circle:before {
+  content: "\e080";
+}
+.icon-cancel:before {
+  content: "\e205";
+}
+.icon-done:before {
+  content: "\e28a";
+}
+.icon-done_all:before {
+  content: "\e28b";
+}
+.icon-highlight_remove:before {
+  content: "\e29c";
+}
+.icon-home:before {
+  content: "\e29e";
+}
+.icon-hourglass_empty:before {
+  content: "\e29f";
+}
+.icon-hourglass_full:before {
+  content: "\e2a0";
+}
+.icon-hamburger:before {
+  content: "\e913";
+}
+.icon-user:before {
+  content: "\e914";
+}
+

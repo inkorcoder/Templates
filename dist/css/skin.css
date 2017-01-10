@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none !important;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* variables */
+/* variables */
+/* mixins */
+/* ------------- */
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 14px; }
+  html.overlayed, body.overlayed {
+    overflow: hidden; }
+
+body {
+  font-family: arial, sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%; }
+
+main {
+  min-height: 100%;
+  overflow: hidden; }
+
+a {
+  color: #369;
+  -webkit-transition: .2s;
+  transition: .2s;
+  border-bottom: 1px solid transparent; }
+  a:hover {
+    text-decoration: none;
+    color: #6699cc;
+    border-color: #369; }
+  a:focus {
+    text-decoration: none;
+    color: #369; }
+
+img.adaptive {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.clear {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.right-align {
+  text-align: right; }
+
+.verticaly-middle {
+  display: table;
+  width: 100%;
+  height: 100%; }
+  .verticaly-middle .inner {
+    display: table-cell;
+    vertical-align: middle; }
+
+.image-contain {
+  position: relative;
+  padding-top: 100%;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0); }
+  .image-contain img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    max-height: 80%; }
+
+.image-cover {
+  position: relative;
+  padding-top: 100%;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0); }
+  .image-cover img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
+  .image-cover.vertical img {
+    top: 50%;
+    left: 0;
+    height: auto;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+
+/* media queries */
+/* variables */
+/* mixins */
+/* ------------- */

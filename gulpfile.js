@@ -153,7 +153,7 @@ gulp.task('Watch-task', function(){
 	gulp.watch(PATH+'html/*html', 						['HTML-include']);
 	gulp.watch(PATH+'html/includes/*html', 		['HTML-include']);
 	// gulp.watch(PATH+'dist/css/*css', 					['CSS']);
-	// gulp.watch(PATH+'dist/js/*js', 						['Javascript']);
+	gulp.watch(PATH+'dist/js/*js', 						['Javascript']);
 	// gulp.watch(PATH+'dist/*html', 						['HTML']);
 });
 
@@ -164,6 +164,6 @@ gulp.task('default', [
 	'HTML-include',
 	// 'CSS',
 	// 'HTML',
-	// 'Javascript',
+	'Javascript',
 	'connect'
 ]);
